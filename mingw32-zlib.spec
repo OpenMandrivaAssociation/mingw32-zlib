@@ -49,8 +49,8 @@ make -f win32/Makefile.gcc \
   CFLAGS="%{_mingw32_cflags}" \
   CC=%{_mingw32_cc} \
   AR=%{_mingw32_ar} \
-  RC=i686-pc-mingw32-windres \
-  DLLWRAP=i686-pc-mingw32-dllwrap \
+  RC=i586-pc-mingw32-windres \
+  DLLWRAP=i586-pc-mingw32-dllwrap \
   STRIP=%{_mingw32_strip} \
   all
 
