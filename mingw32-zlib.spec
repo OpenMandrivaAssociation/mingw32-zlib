@@ -6,7 +6,7 @@
 
 Name:           mingw32-zlib
 Version:        1.2.3
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        MinGW Windows zlib compression library
 
 License:        zlib
