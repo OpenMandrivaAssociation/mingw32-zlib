@@ -86,3 +86,20 @@ rm -rf $RPM_BUILD_ROOT
 %{_mingw32_includedir}/zlib.h
 %{_mingw32_libdir}/libz.dll.a
 %{_mingw32_bindir}/zlib1.dll
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.3-3mdv2011.0
++ Revision: 620363
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.2.3-2mdv2010.0
++ Revision: 439984
+- rebuild
+
+* Fri Feb 06 2009 Jérôme Soyer <saispo@mandriva.org> 1.2.3-1mdv2009.1
++ Revision: 338187
+- Fix compiler
+- import mingw32-zlib
+
+
