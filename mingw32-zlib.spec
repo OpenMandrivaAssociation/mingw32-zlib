@@ -11,7 +11,7 @@ Summary:        MinGW Windows zlib compression library
 
 License:        zlib
 Group:          Development/Other
-URL:            http://www.zlib.net/
+URL:            https://www.zlib.net/
 Source0:        http://www.zlib.net/zlib-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
