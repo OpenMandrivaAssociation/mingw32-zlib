@@ -24,6 +24,11 @@ BuildArch:      noarch
 # MinGW-specific patches.
 Patch100:       zlib-win32.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  mingw32-filesystem >= 23
 BuildRequires:  mingw32-gcc
 BuildRequires:  mingw32-binutils
